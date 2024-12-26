@@ -1,22 +1,18 @@
 <template>
     <div class="container-fluid">
       <div class="row">
-        <!-- Card Pengunjung -->
         <div class="col-lg-6">
-          <nuxt-link to="/pengunjung/tambah">
             <div class="card bg-pengunjung rounded-5">
               <div class="card-body">
-                <h2>Pengunjung</h2>
               </div>
             </div>
-          </nuxt-link>
         </div>
       </div>
   
       <!-- Sambutan Kepala Sekolah -->
       <section class="sambutan">
         <h2>Sambutan Kepala Sekolah</h2>
-        <img src="../assets/poto.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
+        <img src="~/assets/kepsek.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
         <p>Assalamu'alaikum warahmatullahi wabarakatuh,</p>
         <p>
             Sambutan Kepala Sekolah
@@ -31,7 +27,40 @@ Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak 
         <p class="signature">
         </p>
         
-        <h2>kompetensi keahlian</h2>
+        <h1>kompetensi keahlian</h1>
+
+
+
+        <h2>Pengembangan Perangkat Lunak & Gim</h2>
+       <p> 
+Jurusan ini mempelajari cara merancang, mengembangkan, dan memelihara perangkat lunak, termasuk aplikasi berbasis desktop, web, dan mobile.
+ Siswa juga diajarkan teknik pembuatan gim, seperti desain level, animasi, dan pemrograman gim, menggunakan teknologi dan perangkat lunak terkini.
+</p>
+
+<h2>Teknik Komputer & Jaringan Komputer</h2>
+<p>
+  Jurusan ini fokus pada penguasaan konsep dan praktik dalam membangun, mengelola, dan mengamankan jaringan komputer.
+   Siswa akan mempelajari teknologi jaringan, administrasi server, troubleshooting, serta konfigurasi perangkat jaringan seperti router dan switch.</p>
+
+
+   <h2>Teknik & Bisnis Sepeda Motor</h2>
+   <p>
+    Jurusan ini mempelajari teknik perawatan, perbaikan, dan modifikasi sepeda motor, 
+    sekaligus menanamkan keterampilan kewirausahaan. Siswa diajarkan cara membuka dan mengelola bisnis bengkel, termasuk aspek pemasaran dan manajemen.</p>
+
+
+    <h2>Desain Komunikasi Visual</h2>
+    <p>
+      Jurusan ini mengajarkan seni dan teknik dalam menciptakan desain visual yang komunikatif dan menarik.
+       Materi meliputi desain grafis, fotografi, ilustrasi, dan media digital untuk kebutuhan branding, promosi, atau media publikasi.</p>
+
+
+       <h2>Teknik Otomotif Industri</h2>
+       <p>
+        Jurusan ini berfokus pada teknologi otomotif yang diterapkan dalam skala industri.
+         Siswa akan belajar tentang sistem mekanik kendaraan modern, produksi komponen otomotif, dan pengelolaan peralatan industri yang berkaitan dengan otomotif.</p>
+
+
         
       </section>
     </div>
@@ -101,4 +130,5 @@ Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak 
     margin-top: 20px;
   }
   </style>
+  
   
