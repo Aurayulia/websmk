@@ -4,7 +4,7 @@
     <h2>Profil SMK Negeri 4 Tasikmalaya</h2>
 
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <div class="card bg-pengunjung rounded-5">
           <div class="card-body">
             <!-- Optional: Content for the card can go here -->
@@ -17,17 +17,11 @@
     <section class="sambutan">
       <h2>Sejarah Sekolah</h2>
       <p>
-        Sejalan dengan Program Pemerintah dibidang pendidikan Menengah Kejuruan pada saat itu yakni pemerataan
-        akses ditambah pula dengan banyaknya keinginan masyarakat yang mengharapkan adanya SMK Negeri di daerah
-        Kecamatan Purbaratu Kota Tasikmalaya, terutama untuk menampung tamatan dari SLTP yang ingin melanjutkan ke SMK.
-        Maka beberapa tokoh masyarakat, unsur pejabat pemerintah di Kecamatan Purbaratu Kota Tasikmalaya mengusulkan
-        kepada pemerintah Kota Tasikmalaya dan Pemerintah Provinsi Jawa Barat, agar berdirinya SMK Negeri di Kecamatan
-        Purbaratu Kota Tasikmalaya. Setelah melalui perjuangan yang sangat panjang dari berbagai pihak khususnya
-        Disdik Kota Tasikmalaya dan pihak-pihak terkait lainnya sesuai prosedur dan ketentuan yang berlaku pada waktu
-        itu dengan mengucapkan syukur Alhamdulillah akhirnya pada tahun pelajaran 2010/2011 SMK Negeri 4 Tasikmalaya
-        mulai berdiri, pada awalnya membuka Kompetensi Keahlian Teknik Komputer dan Jaringan dengan pendaftar peserta
-        Didik Baru pada waktu itu berjumlah 44 orang. Pada awalnya tempat belajar menumpang di SMP Negeri 17 Kota
-        Tasikmalaya, dan sekolah induknya adalah SMK Negeri 2 Kota Tasikmalaya. Untuk Tenaga pendidik dan Tenaga
+        Sejalan dengan Program Pemerintah dibidang pendidikan Menengah Kejuruan pada saat itu yakni pemerataan akses ditambah pula dengan banyaknya keinginan masyarakat yang mengharapkan adanya SMK Negeri di daerah Kecamatan Purbaratu Kota
+        Tasikmalaya, terutama untuk menampung tamatan dari SLTP yang ingin melanjutkan ke SMK. Maka beberapa tokoh masyarakat, unsur pejabat pemerintah di Kecamatan Purbaratu Kota Tasikmalaya mengusulkan kepada pemerintah Kota Tasikmalaya dan
+        Pemerintah Provinsi Jawa Barat, agar berdirinya SMK Negeri di Kecamatan Purbaratu Kota Tasikmalaya. Setelah melalui perjuangan yang sangat panjang dari berbagai pihak khususnya Disdik Kota Tasikmalaya dan pihak-pihak terkait lainnya sesuai
+        prosedur dan ketentuan yang berlaku pada waktu itu dengan mengucapkan syukur Alhamdulillah akhirnya pada tahun pelajaran 2010/2011 SMK Negeri 4 Tasikmalaya mulai berdiri, pada awalnya membuka Kompetensi Keahlian Teknik Komputer dan Jaringan
+        dengan pendaftar peserta Didik Baru pada waktu itu berjumlah 44 orang. Pada awalnya tempat belajar menumpang di SMP Negeri 17 Kota Tasikmalaya, dan sekolah induknya adalah SMK Negeri 2 Kota Tasikmalaya. Untuk Tenaga pendidik dan Tenaga
         Kependidikan masih dibantu sepenuhnya oleh kedua sekolah tersebut.
       </p>
 
@@ -36,10 +30,7 @@
         <div class="col-md-6">
           <div class="visi-box">
             <h1>Visi</h1>
-            <p>
-              "TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF BERLANDASKAN IMAN DAN TAKWA"
-              "(CAKAP BERIMTAK)"
-            </p>
+            <p>"TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF BERLANDASKAN IMAN DAN TAKWA" "(CAKAP BERIMTAK)"</p>
           </div>
         </div>
 
@@ -48,21 +39,14 @@
             <h1>Misi</h1>
             <ul>
               <li>Menyiapkan Sumber Daya Manusia yang cerdas dan kompeten baik hardskill maupun softskill.</li>
-              <li>Meningkatkan dan mengembangkan aktifitas serta kreatifitas seluruh warga sekolah dalam berbagai
-                kegiatan positif.</li>
+              <li>Meningkatkan dan mengembangkan aktifitas serta kreatifitas seluruh warga sekolah dalam berbagai kegiatan positif.</li>
               <li>Mewujudkan manajemen pengelolaan yang efektif, efesien, transparan, akuntabel dan layanan prima.</li>
-              <li>Menumbuhkan dan mengembangkan potensi dan kemampuan Sumber Daya Manusia yang berdaya saing tinggi
-                melalui berbagai kegiatan akademik maupun non akademik.</li>
-              <li>Menyelenggarakan berbagai program kegiatan dalam upaya meningkatkan Sumber Daya Manusia yang mampu
-                menyesuaikan dengan perkembangan.</li>
-              <li>Mengembangkan sarana prasarana dan lingkungan sekolah yang menyenangkan sebagai wadah
-                menumbuhkembangkan daya kreasi dan inovasi untuk menghasilkan produk teknologi tepat guna.</li>
-              <li>Membangun jiwa wirausaha yang handal melalui pembelajaran Teaching Factory (TEFA) dan Kelas Industri.
-              </li>
-              <li>Menjalin dan mengembangkan kemitraan dengan Industri dan Dunia Kerja (IDUKA) serta lembaga lainnya
-                yang relevan.</li>
-              <li>Menanamkan dan membudayakan sikap dan perilaku yang baik pada aktivitas di sekolah maupun dalam
-                kehidupan sehari-hari.</li>
+              <li>Menumbuhkan dan mengembangkan potensi dan kemampuan Sumber Daya Manusia yang berdaya saing tinggi melalui berbagai kegiatan akademik maupun non akademik.</li>
+              <li>Menyelenggarakan berbagai program kegiatan dalam upaya meningkatkan Sumber Daya Manusia yang mampu menyesuaikan dengan perkembangan.</li>
+              <li>Mengembangkan sarana prasarana dan lingkungan sekolah yang menyenangkan sebagai wadah menumbuhkembangkan daya kreasi dan inovasi untuk menghasilkan produk teknologi tepat guna.</li>
+              <li>Membangun jiwa wirausaha yang handal melalui pembelajaran Teaching Factory (TEFA) dan Kelas Industri.</li>
+              <li>Menjalin dan mengembangkan kemitraan dengan Industri dan Dunia Kerja (IDUKA) serta lembaga lainnya yang relevan.</li>
+              <li>Menanamkan dan membudayakan sikap dan perilaku yang baik pada aktivitas di sekolah maupun dalam kehidupan sehari-hari.</li>
             </ul>
           </div>
         </div>
@@ -102,12 +86,6 @@
           <p>info@smkn4tsm.sch.id</p>
         </div>
       </div>
-
-      <!-- By Aura Box -->
-      <div class="by-aura-box">
-        <p>Copyright SMKN 4 Tasikmalaya 2024 - 2024</p>
-        <h2>Made with By Aura</h2>
-      </div>
     </section>
   </div>
 </template>
@@ -123,9 +101,7 @@ export default {
 .container-fluid {
   padding: 20px;
   max-width: 1140px;
-  /* Optional: Limit max width */
   margin: 0 auto;
-  /* Centers content */
 }
 
 /* Profil SMK Section */
@@ -144,7 +120,7 @@ h2 {
 
 .card.bg-pengunjung {
   margin-top: 5%;
-  background-image: url('~/assets/poto.jpeg');
+  background: transparent url("~/assets/poto.jpeg") no-repeat center bottom fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -160,10 +136,9 @@ h2 {
 /* Sejarah Sekolah Section */
 .sambutan {
   margin-top: 30px;
-  background: #f9f9f9;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  text-align: justify;
 }
 
 .sambutan h2 {
@@ -204,7 +179,7 @@ h2 {
 }
 
 .misi-box h1 {
-  color: #388e3c;
+  color: #007bff;
 }
 
 .misi-box ul {
@@ -225,7 +200,6 @@ h2 {
   margin-top: 40px;
   margin-bottom: 40px;
   justify-content: center;
-  /* Centers boxes */
 }
 
 .identitas-sekolah h2 {
@@ -258,23 +232,20 @@ h2 {
   margin-top: 10px;
 }
 
-/* By Aura Box */
-.by-aura-box {
-  background-color: #535658;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 40px;
-  text-align: center;
-}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .identitas-sekolah .box {
+    flex: 1 1 100%;
+    font-size: 14px;
+  }
 
-.by-aura-box h2 {
-  color: #fff;
-  font-size: 24px;
-}
+  h2 {
+    font-size: 24px;
+  }
 
-.by-aura-box p {
-  color: #333;
-  font-size: 16px;
+  .misi-box h1,
+  .visi-box h1 {
+    font-size: 20px;
+  }
 }
 </style>

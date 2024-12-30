@@ -1,19 +1,16 @@
 <template>
   <div class="box-wrapper">
-    <div class="container">
-    </div>
-    <h1 class="berita-title">berita</h1> <!-- Apply class for custom styling -->
-    <div class="row">
-    </div>
+    <div class="container"></div>
+    <h1 class="berita-title">Berita</h1>
+    <!-- Apply class for custom styling -->
+    <div class="row"></div>
     <!-- First Box -->
     <div class="box-container">
       <div class="foto-item">
         <img src="~/assets/guru.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
       </div>
       <h1>Upacara Peringatan Hari Guru</h1>
-      <p>
-        Upacara Peringatan Hari Guru Nasional Ke-30, dan HUT PGRI Ke-79 Tahun 2024. "Guru Hebat Indonesia Kuat".
-      </p>
+      <p>Upacara Peringatan Hari Guru Nasional Ke-30, dan HUT PGRI Ke-79 Tahun 2024. "Guru Hebat Indonesia Kuat".</p>
     </div>
 
     <!-- Second Box -->
@@ -22,10 +19,7 @@
         <img src="~/assets/berita1.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
       </div>
       <h1>Perencanaan Zona Integritas</h1>
-      <p>
-        Zona Integritas di Satuan Pendidikan Dinas Pendidikan Provinsi Jawa Barat, Wujudkan Wilayah Bebas dari Korupsi
-        & Birokrasi Bersih dan Melayani.
-      </p>
+      <p>Zona Integritas di Satuan Pendidikan Dinas Pendidikan Provinsi Jawa Barat, Wujudkan Wilayah Bebas dari Korupsi & Birokrasi Bersih dan Melayani.</p>
     </div>
 
     <!-- Third Box -->
@@ -34,17 +28,7 @@
         <img src="~/assets/berita3.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
       </div>
       <h1>Skill Competition 2024</h1>
-      <p>
-        Skill Competition 2024 di selenggarakan oleh Safety Riding Center PT Daya Adicipta Motora Bandung.
-      </p>
-    </div>
-
-    <!-- "By Aura" Box -->
-    <div class="by-aura-box">
-      <div class="by-aura-content">
-        <p>Copyright SMKN 4 Tasikmalaya 2024 - 2024</p>
-        <h2> made with By Aura</h2>
-      </div>
+      <p>Skill Competition 2024 di selenggarakan oleh Safety Riding Center PT Daya Adicipta Motora Bandung.</p>
     </div>
   </div>
 </template>

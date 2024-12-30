@@ -1,282 +1,278 @@
 <template>
-    <div class="container-fluid">
-        <!-- Card Pengunjung -->
+  <div class="container">
+    <!-- Galeri Section -->
+    <section class="foto-galeri">
+      <div class="ekstrakulikuler-box">
+        <h2>Ekstrakulikuler</h2>
         <div class="row">
-            <div class="col-lg-6">
-                <div class="card bg-pengunjung rounded-5">
-                    <div class="card-body">
-                        <!-- Optional: Content for the card can go here -->
-                    </div>
-                </div>
+          <!-- Foto 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <!-- Box around each photo -->
+              <div class="foto-item">
+                <img src="~/assets/pd.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
+                <!-- Name inside box -->
+                <div class="foto-name">perisai diri</div>
+                <p>Ekstrakurikuler seni bela diri tradisional untuk melatih fisik dan mental sekaligus menjaga warisan budaya.</p>
+              </div>
             </div>
+          </div>
+
+          <!-- Foto 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/pks.jpg" alt="Foto Prestasi" class="profile-pic" />
+                <div class="foto-name">Pks</div>
+                <p>Menanamkan disiplin dan tanggung jawab untuk menjaga ketertiban di lingkungan sekolah.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/pramuka.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Pramuka</div>
+                <p>Mengembangkan karakter, keterampilan, dan rasa tanggung jawab melalui kegiatan kepramukaan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 4 (Putsal with name) -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/putsal.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Putsal</div>
+                <p>Melatih keterampilan bermain futsal dengan fokus pada kerjasama tim dan strategi permainan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 5 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/IT.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">IT</div>
+                <p>Mengembangkan keterampilan teknologi informasi, termasuk pemrograman, desain grafis, dan jaringan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 6 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/PMR.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">PMR</div>
+                <p>Melatih siswa untuk siap siaga dalam memberikan pertolongan pertama dan kegiatan kemanusiaan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 7 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/bulu tangkis.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Bulu Tangkis</div>
+                <p>Meningkatkan kemampuan bermain bulu tangkis sambil menjaga kesehatan dan semangat sportivitas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 8 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/paskibra.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Paskibra</div>
+                <p>Melatih keterampilan baris-berbaris serta menanamkan semangat kebangsaan dan kedisiplinan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 9  -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/rohis.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Rohis</div>
+                <p>Menanamkan nilai-nilai keagamaan Islam melalui kajian, diskusi, dan kegiatan ibadah bersama.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 10 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/seni.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Seni</div>
+                <p>Mengeksplorasi bakat seni siswa, seperti tari, musik, dan teater.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 11 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/laskar pustaka.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Laskar Pustaka</div>
+                <p>Meningkatkan minat baca dan pengelolaan perpustakaan untuk mendukung literasi siswa..</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 12 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/cinematografi.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Cinematografi</div>
+                <p>Mengajarkan seni pembuatan film, mulai dari pengambilan gambar, editing, hingga produksi video kreatif.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 13 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/sepak bola.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Bepak Bola</div>
+                <p>Melatih keterampilan baris-berbaris serta menanamkan semangat kebangsaan dan kedisiplinan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 14 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/voli.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">Voli</div>
+                <p>Melatih kemampuan bermain voli dengan fokus pada teknik dan kerja sama tim.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 15 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="foto-box">
+              <div class="foto-item">
+                <img src="~/assets/english.jpg" alt="Foto Kegiatan" class="profile-pic" />
+                <div class="foto-name">English Club</div>
+                <p>Melatih kemampuan berbahasa Inggris melalui diskusi, debat, dan kegiatan interaktif lainnya.</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <!-- Sejarah sekolah -->
-        <section class="sambutan">
-            <h2>Sejarah Sekolah</h2>
-            <p>
-                Sejalan dengan Program Pemerintah dibidang pendidikan Menengah Kejuruan pada saat itu yakni pemerataan
-                akses ditambah pula dengan banyaknya keinginan masyarakat yang mengharapkan adanya SMK Negeri di daerah
-                Kecamatan Purbaratu Kota Tasikmalaya, terutama untuk menampung tamatan dari SLTP yang ingin melanjutkan
-                ke SMK.
-                Maka beberapa tokoh masyarakat, unsur pejabat pemerintah di Kecamatan Purbaratu Kota Tasikmalaya
-                mengusulkan
-                kepada pemerintah Kota Tasikmalaya dan Pemerintah Provinsi Jawa Barat, agar berdirinya SMK Negeri di
-                Kecamatan
-                Purbaratu Kota Tasikmalaya. Setelah melalui perjuangan yang sangat panjang dari berbagai pihak khususnya
-                Disdik Kota Tasikmalaya dan pihak-pihak terkait lainnya sesuai prosedur dan ketentuan yang berlaku pada
-                waktu
-                itu dengan mengucapkan syukur Alhamdulillah akhirnya pada tahun pelajaran 2010/2011 SMK Negeri 4
-                Tasikmalaya
-                mulai berdiri, pada awalnya membuka Kompetensi Keahlian Teknik Komputer dan Jaringan dengan pendaftar
-                peserta
-                Didik Baru pada waktu itu berjumlah 44 orang. Pada awalnya tempat belajar menumpang di SMP Negeri 17
-                Kota
-                Tasikmalaya, dan sekolah induknya adalah SMK Negeri 2 Kota Tasikmalaya. Untuk Tenaga pendidik dan Tenaga
-                Kependidikan masih dibantu sepenuhnya oleh kedua sekolah tersebut.
-            </p>
-
-            <!-- Visi and Misi in Separate Boxes -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="visi-box">
-                        <h1>Visi</h1>
-                        <p>
-                            "TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF BERLANDASKAN
-                            IMAN DAN TAKWA"
-                            "(CAKAP BERIMTAK)"
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="misi-box">
-                        <h1>Misi</h1>
-                        <ul>
-                            <li>Menyiapkan Sumber Daya Manusia yang cerdas dan kompeten baik hardskill maupun softskill.
-                            </li>
-                            <li>Meningkatkan dan mengembangkan aktifitas serta kreatifitas seluruh warga sekolah dalam
-                                berbagai
-                                kegiatan positif.</li>
-                            <li>Mewujudkan manajemen pengelolaan yang efektif, efesien, transparan, akuntabel dan
-                                layanan prima.</li>
-                            <li>Menumbuhkan dan mengembangkan potensi dan kemampuan Sumber Daya Manusia yang berdaya
-                                saing tinggi
-                                melalui berbagai kegiatan akademik maupun non akademik.</li>
-                            <li>Menyelenggarakan berbagai program kegiatan dalam upaya meningkatkan Sumber Daya Manusia
-                                yang mampu
-                                menyesuaikan dengan perkembangan.</li>
-                            <li>Mengembangkan sarana prasarana dan lingkungan sekolah yang menyenangkan sebagai wadah
-                                menumbuhkembangkan daya kreasi dan inovasi untuk menghasilkan produk teknologi tepat
-                                guna.</li>
-                            <li>Membangun jiwa wirausaha yang handal melalui pembelajaran Teaching Factory (TEFA) dan
-                                Kelas Industri.
-                            </li>
-                            <li>Menjalin dan mengembangkan kemitraan dengan Industri dan Dunia Kerja (IDUKA) serta
-                                lembaga lainnya
-                                yang relevan.</li>
-                            <li>Menanamkan dan membudayakan sikap dan perilaku yang baik pada aktivitas di sekolah
-                                maupun dalam
-                                kehidupan sehari-hari.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Identitas Sekolah in Boxes -->
-            <h2>Identitas Sekolah</h2>
-
-            <div class="identitas-sekolah">
-                <div class="box">
-                    <h1>Nama Sekolah</h1>
-                    <p>SMK Negeri 4 Tasikmalaya</p>
-                </div>
-
-                <div class="box">
-                    <h1>NPSN</h1>
-                    <p>20276063</p>
-                </div>
-
-                <div class="box">
-                    <h1>Nomor Statistik Sekolah</h1>
-                    <p>401327810004</p>
-                </div>
-
-                <div class="box">
-                    <h1>Alamat</h1>
-                    <p>Jalan Depok RT 02 RW 05</p>
-                </div>
-
-                <div class="box">
-                    <h1>Telepon</h1>
-                    <p>+(62)265312059</p>
-                </div>
-
-                <div class="box">
-                    <h1>Email</h1>
-                    <p>info@smkn4tsm.sch.id</p>
-                </div>
-
-                <!-- Additional Box Example 1 -->
-                <div class="box">
-                    <h1>Website</h1>
-                    <p>www.smkn4tsm.sch.id</p>
-                </div>
-
-                <!-- Additional Box Example 2 -->
-                <div class="box">
-                    <h1>Akreditasi</h1>
-                    <p>A</p>
-                </div>
-
-                <!-- Additional Box Example 3 -->
-                <div class="box">
-                    <h1>Kepala Sekolah</h1>
-                    <p>Drs. H. Asep Suherman</p>
-                </div>
-            </div>
-        </section>
-    </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "HomePage",
+  name: "GaleriPage",
 };
 </script>
 
 <style scoped>
-/* General Styles */
-.container-fluid {
-    padding: 20px;
+/* Styling for gallery */
+.foto-galeri {
+  padding: 20px;
 }
 
-/* Card Pengunjung */
-.card {
-    height: 250px;
-    box-shadow: 3px 1px 10px #424242;
+/* Extra box around ekstrakulikuler */
+.ekstrakulikuler-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
-.card.bg-pengunjung {
-    margin-top: 5%;
-    background-image: url('~/assets/poto.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.9;
+.foto-galeri h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #007bff;
 }
 
-.card-body h2 {
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
+/* Box around each photo */
+.foto-box {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Sejarah Sekolah Section */
-.sambutan {
-    margin-top: 30px;
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Hover effect for photo boxes */
+.foto-box:hover {
+  transform: scale(1.05);
 }
 
-.sambutan h2 {
-    text-align: center;
-    color: #007bff;
+/* Styling for each photo item */
+.foto-item {
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack images and text vertically */
+  justify-content: center;
+  position: relative;
 }
 
-.sambutan p {
-    text-align: justify;
-    line-height: 1.6;
+/* Styling for the name inside the photo box */
+.foto-name {
+  margin-top: 10px; /* Give space above the name */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
 }
 
-/* Visi Box */
-.visi-box {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Styling for the images */
+.foto-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.visi-box h1 {
-    color: #007bff;
+/* Responsive grid layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 
-.visi-box p {
-    text-align: justify;
-    line-height: 1.6;
-    color: #1a1b1b;
+.col-lg-4,
+.col-md-6,
+.col-sm-12 {
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Misi Box */
-.misi-box {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    /* Add margin bottom to separate Misi and Identitas */
+@media (min-width: 768px) {
+  .col-md-6 {
+    width: 48%;
+  }
 }
 
-.misi-box h1 {
-    color: #388e3c;
-}
-
-.misi-box ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.misi-box li {
-    margin-bottom: 10px;
-    color: #1a1b1b;
-}
-
-/* Identitas Sekolah Section */
-.identitas-sekolah {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 40px;
-    /* Adjust the margin-top for more space */
-    margin-bottom: 40px;
-}
-
-.identitas-sekolah h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #1a1b1b;
-    text-align: center;
-}
-
-.identitas-sekolah .box {
-    flex: 1 1 calc(33% - 20px);
-    /* Adjusted for 3 boxes in a row */
-    background: #f0f4f7;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 14px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.identitas-sekolah h1 {
-    color: #1a1b1b;
-    font-size: 16px;
-}
-
-.identitas-sekolah p {
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-.signature {
-    text-align: right;
-    font-style: italic;
-    margin-top: 20px;
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 32%;
+  }
 }
 </style>

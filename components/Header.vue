@@ -8,8 +8,7 @@
       <NuxtLink class="navbar-brand" to="/">SMKN 4 Tasikmalaya</NuxtLink>
 
       <!-- Navbar Toggler Button for smaller screens -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -29,7 +28,7 @@
             <NuxtLink class="nav-link" to="/galeri">Galeri</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/ekstrakurikuler">Ekstrakurikuler</NuxtLink>
+            <NuxtLink class="nav-link" to="/ekstrakulikuler">ekstrakulikuler</NuxtLink>
           </li>
         </ul>
       </div>
