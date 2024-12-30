@@ -1,96 +1,160 @@
 <template>
-    <div class="container-fluid">
-      <div class="row">
-        <!-- Card Pengunjung -->
-        <div class="col-lg-6">
-          <NuxtLink to="/pengunjung">
-            <div class="card bg-pengunjung rounded-5">
-              <div class="card-body">
-              </div>
-            </div>
-          </NuxtLink>
-        </div>
-      </div>
-  
-      <!--Berita Sekolah  -->
-      <section class="sambutan">
-        <h2>Berita Sekolah</h2>
-<h1>Upacara Peringatan Hari Guru</h1>     
-      </section>
+  <div class="box-wrapper">
+    <div class="container">
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: "HomePage",
-  };
-  </script>
-  
-  <style scoped>
-  /* General Styles */
-  .container-fluid {
-    padding: 20px;
-  }
-  
-  .card {
-    height: 250px;
-    box-shadow: 3px 1px 10px #424242;
-  }
-  
-  .card.bg-pengunjung {
-    margin-top: 5%;
-    background-image: url('~/assets/guru.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.9;
-  }
-  
-  .card-body h2 {
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .sambutan {
-    margin-top: 30px;
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .sambutan h2 {
-    text-align: center;
-    color: #007bff;
-  }
-  
-  .sambutan p {
-    text-align: justify;
-    line-height: 1.6;
-  }
-  
-  .profile-pic {
-    display: block;
-    max-width: 150px;
-    margin: 0 auto 20px auto;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  </style>
-  
+    <h1 class="berita-title">berita</h1> <!-- Apply class for custom styling -->
+    <div class="row">
+    </div>
+    <!-- First Box -->
+    <div class="box-container">
+      <div class="foto-item">
+        <img src="~/assets/guru.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
+      </div>
+      <h1>Upacara Peringatan Hari Guru</h1>
+      <p>
+        Upacara Peringatan Hari Guru Nasional Ke-30, dan HUT PGRI Ke-79 Tahun 2024. "Guru Hebat Indonesia Kuat".
+      </p>
+    </div>
+
+    <!-- Second Box -->
+    <div class="box-container">
+      <div class="foto-item">
+        <img src="~/assets/berita1.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
+      </div>
+      <h1>Perencanaan Zona Integritas</h1>
+      <p>
+        Zona Integritas di Satuan Pendidikan Dinas Pendidikan Provinsi Jawa Barat, Wujudkan Wilayah Bebas dari Korupsi
+        & Birokrasi Bersih dan Melayani.
+      </p>
+    </div>
+
+    <!-- Third Box -->
+    <div class="box-container">
+      <div class="foto-item">
+        <img src="~/assets/berita3.jpg" alt="Foto Kepala Sekolah" class="profile-pic" />
+      </div>
+      <h1>Skill Competition 2024</h1>
+      <p>
+        Skill Competition 2024 di selenggarakan oleh Safety Riding Center PT Daya Adicipta Motora Bandung.
+      </p>
+    </div>
+
+    <!-- "By Aura" Box -->
+    <div class="by-aura-box">
+      <div class="by-aura-content">
+        <p>Copyright SMKN 4 Tasikmalaya 2024 - 2024</p>
+        <h2> made with By Aura</h2>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+/* Flex container for wrapping items */
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+  justify-items: center;
+  padding: 20px;
+  /* Add some padding to the wrapper */
+}
+
+/* Box container styling */
+.box-container {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #f9f9f9;
+  max-width: 30%;
+  min-width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* Ensure that content is stacked vertically (image on top, text below) */
+  align-items: center;
+  /* Center-align the content */
+}
+
+/* Center the "berita" heading */
+.berita-title {
+  font-size: 2rem;
+  /* Increase font size */
+  color: #007bff;
+  text-align: center;
+  width: 100%;
+  /* Ensure it spans the full width */
+  margin-bottom: 20px;
+  /* Add spacing below */
+}
+
+/* Heading styling for box containers */
+h1 {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+  /* Add some space above the heading */
+}
+
+/* Paragraph styling */
+p {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 8px;
+  /* Add space between paragraph and heading */
+}
+
+/* Foto-item styling */
+.foto-item {
+  display: flex;
+  justify-content: center;
+  /* Center the image inside the container */
+  width: 100%;
+  /* Make sure the image takes the full width inside the container */
+  margin-bottom: 15px;
+  /* Add some space below the image */
+}
+
+/* Profile image styling */
+.profile-pic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Styling for 'By Aura' Box */
+.by-aura-box {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #535658;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* By Aura Content Styling */
+.by-aura-content {
+  width: 80%;
+  max-width: 600px;
+}
+
+.by-aura-content h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.by-aura-content p {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+</style>
