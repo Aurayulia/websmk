@@ -1,38 +1,25 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark text-white">
     <div class="container-fluid">
-      <img src="../assets/Logo.png" alt="Logo" class="logo" />
-      <NuxtLink class="navbar-brand" to="/">SMKN 4 Tasikmalaya</NuxtLink>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <img src="../assets/Logo.png" alt="Logo" class="logo">
+      <a class="navbar-brand text-white" href="#">smkn 4 tasikmalaya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            
+            <NuxtLink class="nav-link " aria-current="page" to="#">Home</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="./">Beranda</NuxtLink>
+            <NuxtLink class="nav-link" to="#">beranda</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="./profil">profil</NuxtLink>
+            <NuxtLink class="nav-link" to="#">jurusan</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link"  to="./Berita">Berita</NuxtLink>
-          </li>
-          <li class="nav-item">
-            <NuxtLink class="nav-link"  to="./galeri">galeri</NuxtLink>
-          </li>
-          <li class="nav-item">
-            <NuxtLink class="nav-link"  to="./Eksrakulikuler">Ektrakulikuler</NuxtLink>
+            <NuxtLink class="nav-link disabled" aria-disabled="true">ekstrakulikuler</NuxtLink>
           </li>
         </ul>
       </div>
@@ -40,24 +27,14 @@
   </nav>
 </template>
 
-<script>
-export default {
-  name: "Navbar",
-};
-</script>
 
 <style scoped>
-.logo {
-  height: 40px;
-  margin-right: 10px;
-}
-.navbar-brand {
-  color: #ffffff !important;
-}
 .nav-link {
-  color: #ffffff !important;
+  color: #fff;
 }
-.nav-link:hover {
-  text-decoration: underline;
+
+.logo {
+  width: 50px;
+  margin-right: 1rem;
 }
 </style>
