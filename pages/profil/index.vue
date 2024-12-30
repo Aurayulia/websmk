@@ -1,7 +1,8 @@
 <template>
   <div class="container-fluid">
-    <!-- Card Pengunjung -->
-    <h2>Profil smk negri 4 Tasikmalaya</h2>
+    <!-- Profil SMK Section -->
+    <h2>Profil SMK Negeri 4 Tasikmalaya</h2>
+
     <div class="row">
       <div class="col-lg-6">
         <div class="card bg-pengunjung rounded-5">
@@ -121,6 +122,18 @@ export default {
 /* General Styles */
 .container-fluid {
   padding: 20px;
+  max-width: 1140px;
+  /* Optional: Limit max width */
+  margin: 0 auto;
+  /* Centers content */
+}
+
+/* Profil SMK Section */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007bff;
 }
 
 /* Card Pengunjung */
@@ -211,6 +224,8 @@ export default {
   gap: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
+  justify-content: center;
+  /* Centers boxes */
 }
 
 .identitas-sekolah h2 {
